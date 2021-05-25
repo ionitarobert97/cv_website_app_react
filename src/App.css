@@ -1,0 +1,250 @@
+/* Global */
+
+.background{
+  background-color: rgba(223, 223, 223, 0.657);
+}
+.background-contact{
+  background-color: rgba(59, 59, 59, 0.904);
+}
+.title-page{
+  font-size: 45px;
+  color:rgb(67, 191, 195);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+svg{
+  color: #22A39F;
+}
+svg:hover{
+  color: #5ff830;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+h5{
+  font-family: 'Times New Roman', Times, serif;
+}
+span{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container{
+  position: relative;
+  padding: 70px 0px;
+  text-align: center;
+}
+@media screen and (max-width: 767px){
+    .row > .col{
+      flex-basis: auto;
+      margin-top: 0.5rem;
+    }
+    #downloadButtons{
+      margin:auto;
+      display:grid;
+      grid-template-columns:none;
+    }
+    .container-download > .btn-download{
+      margin-top: 0.5rem;
+    }
+  }
+@media screen and (max-width: 425px){
+  .row > .col{
+    flex-basis: auto;
+    margin-top: 0.5rem;
+  }
+  .education-links{
+    display: none;
+  }
+  #downloadButtons{
+    margin:auto;
+    display:grid;
+    grid-template-columns:none;
+  }
+  .container-download > .btn-download{
+    margin-top: 0.5rem;
+  }
+}
+
+/* Profile */
+h3 {
+  font-size: 70px;
+  text-align: center;
+}
+.profile-subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+hr {
+  margin: 40px 0px;
+  border-color: #000000;
+}
+.social-profile {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  font-size: 25px;
+  color: #22A39F;
+}
+.container-download{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+}
+.btn-download{
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: .5rem;
+  transition: .3s;
+}
+.btn-download:hover{
+  color: white;
+  background-color: #22A39F;
+  text-decoration:none;
+  cursor: pointer;
+}
+.text-profile{
+  padding-top: 1.5rem;
+}
+.text-details{
+  padding-top: 0.1rem;
+}
+.details{
+  padding-bottom: 1rem;
+}
+.profile-subtitle1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(67, 191, 195);
+}
+.container-text-details{
+  padding-top: 1rem;
+}
+.profile-subtitle2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media screen and (max-width: 1375px) {
+  #profile{
+    padding-top:130px;
+  }  
+}
+
+
+/* Experience */
+
+.container-education{
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  row-gap: 2rem;
+  margin-top: 3rem;
+}
+.content-education{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+}
+.experience-icon{
+  font-size: 50px;
+  display: relative;
+  left:10px;
+}
+.education-name,
+.education-year{
+  text-align: right;
+}
+.education-icon{
+  justify-self: center;
+  font-size: 50px;
+}
+.experience-subtitle{
+  font-weight: bold;
+  font-size: 30px;
+}
+.education-name{
+  font-weight: bold;
+  font-size: 22px;
+}
+.education-name-right{
+  font-weight: bold;
+  font-size: 22px;
+}
+.education-links{
+  color: #22A39F;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+
+/* Abilities */
+.no-bullets{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.ability-title{
+  display: inline-block;
+  width: 60%;
+}
+.ability-score{
+  float: right;
+}
+.abilities-subtitle{
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+/* Projects */
+
+.card-img-overlay{
+  visibility: hidden;
+}
+.card:hover .card-img-overlay{
+  background-color: rgba(51, 51, 51, 0.746);
+  visibility: visible;
+  cursor: pointer;
+}
+
+/* Contact */
+
+.contact-details{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.email-tel{
+  padding-top: 2.5rem;
+}
+.social {
+  padding-top: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  font-size: 25px;
+}
+.contact-text{
+  color: white;
+}
+#contact{
+  padding-bottom: 19rem;
+}
