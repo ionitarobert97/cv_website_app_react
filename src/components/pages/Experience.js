@@ -1,5 +1,6 @@
 import React from "react";
 import { CgArrowLongUpC, CgArrowLongUpL } from "react-icons/cg";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -16,9 +17,16 @@ const Experience = () => {
             </div>
             <CgArrowLongUpC className="education-icon" />
             <div>
-              <h5 className="education-name-right">Web Development (JavaScript)</h5>
-              <a className="education-links" href="https://scoalainformala.ro/" target="_blank" rel="noreferrer">
-                https://scoalainformala.ro/
+              <h5 className="education-name-right">
+                Web Development (JavaScript)
+              </h5>
+              <a
+                className="education-links"
+                href="https://scoalainformala.ro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -31,9 +39,16 @@ const Experience = () => {
             </div>
             <CgArrowLongUpL className="education-icon" />
             <div>
-              <h5 className="education-name-right">Bachelor's degree in marketing</h5>
-              <a className="education-links" href="https://mk.ase.ro/" target="_blank" rel="noreferrer">
-                https://mk.ase.ro/
+              <h5 className="education-name-right">
+                Bachelor's degree in marketing
+              </h5>
+              <a
+                className="education-links"
+                href="https://mk.ase.ro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -49,8 +64,13 @@ const Experience = () => {
             <CgArrowLongUpC className="education-icon" />
             <div>
               <h5 className="education-name-right">Gameloft Romania</h5>
-              <a className="education-links" href="http://www.gameloft.ro/" target="_blank" rel="noreferrer">
-                http://www.gameloft.ro/
+              <a
+                className="education-links"
+                href="http://www.gameloft.ro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -62,8 +82,13 @@ const Experience = () => {
             <CgArrowLongUpC className="education-icon" />
             <div>
               <h5 className="education-name-right">Gameloft Romania</h5>
-              <a className="education-links" href="http://www.gameloft.ro/" target="_blank" rel="noreferrer">
-                http://www.gameloft.ro/
+              <a
+                className="education-links"
+                href="http://www.gameloft.ro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaExternalLinkAlt />
               </a>
             </div>
           </div>
@@ -74,7 +99,9 @@ const Experience = () => {
             </div>
             <CgArrowLongUpL className="education-icon" />
             <div>
-              <h5 className="education-name-right">Udrescu Building Management</h5>
+              <h5 className="education-name-right">
+                Udrescu Building Management
+              </h5>
             </div>
           </div>
         </div>

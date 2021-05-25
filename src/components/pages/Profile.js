@@ -47,16 +47,6 @@ const Profile = () => {
             </Col>
           </Row>
           <div className="social-profile">
-            <a href="https://www.instagram.com/robert.irs/" target="_blank" rel="noreferrer">
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.facebook.com/robertstefan.ionita"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaFacebook />
-            </a>
             <a
               href="https://www.linkedin.com/in/ioni%C8%9B%C4%83-robert-%C8%99tefan-999a4718a/"
               target="_blank"
