@@ -33,20 +33,18 @@ const Projects = () => {
             <Col>
               <Card className="bg-dark text-white">
                 <Card.Img src={Website2} alt="Card image" />
-                <a>
-                  <Card.ImgOverlay>
-                    <Card.Title className="card-text">
-                      Future Project Card
-                    </Card.Title>
-                    <hr />
-                    <Card.Text className="card-text">
-                      These are containers for future projects.
-                    </Card.Text>
-                    <Card.Text className="card-text">
-                      Create date: Unknown yet{" "}
-                    </Card.Text>
-                  </Card.ImgOverlay>
-                </a>
+                <Card.ImgOverlay>
+                  <Card.Title className="card-text">
+                    Future Project Card
+                  </Card.Title>
+                  <hr />
+                  <Card.Text className="card-text">
+                    These are containers for future projects.
+                  </Card.Text>
+                  <Card.Text className="card-text">
+                    Create date: Unknown yet{" "}
+                  </Card.Text>
+                </Card.ImgOverlay>
               </Card>
             </Col>
           </Row>
