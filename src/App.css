@@ -230,6 +230,12 @@ hr {
 #projects {
   padding-bottom: 5rem;
 }
+.card-title {
+  color: white;
+}
+.card-text{
+  color: white;
+}
 
 /* Contact */
 
