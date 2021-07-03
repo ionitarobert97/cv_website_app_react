@@ -17,8 +17,8 @@ const Projects = () => {
           <Row>
             <Col>
               <Card className="bg-dark text-white">
-                <Card.Img src={Website1} alt="Card image" href="https://blooming-badlands-57780.herokuapp.com/" />
-                  <a target="_blank" href="https://blooming-badlands-57780.herokuapp.com/">
+                <Card.Img src={Website1} alt="Card image"/>
+                  <a rel="noreferrer" target="_blank" href="https://blooming-badlands-57780.herokuapp.com/">
                 <Card.ImgOverlay className="cardTextContainer">
                   <Card.Title>Vacation App</Card.Title>
                   <hr />
