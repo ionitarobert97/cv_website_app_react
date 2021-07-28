@@ -90,7 +90,8 @@ hr {
 }
 .social-profile {
   padding-top: 1rem;
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   font-size: 25px;
   color: #22A39F;
@@ -200,7 +201,6 @@ hr {
 /* Abilities */
 .no-bullets{
   list-style-type: none;
-  margin: 0px;
   padding: 0px;
 }
 .ability-title{
@@ -237,6 +237,10 @@ hr {
   color: white;
 }
 
+.card-img {
+  height: 285px;
+}
+
 /* Contact */
 
 .contact-details{
@@ -250,7 +254,8 @@ hr {
 }
 .social {
   padding-top: 1.3rem;
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   font-size: 25px;
 }

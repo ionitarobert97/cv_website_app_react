@@ -95,6 +95,86 @@ const Abilities = () => {
                   </span>
                 </span>
               </li>
+              <li>
+                <span className="ability-title">Problem Solving Skills</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Excel</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarHalf />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Creativity</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarHalf />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Responsibility</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                </span>
+              </li>
             </ul>
           </Col>
           <Col>
@@ -179,6 +259,86 @@ const Abilities = () => {
                   </span>
                 </span>
               </li>
+              <li>
+                <span className="ability-title">Hardware</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Teamwork</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Attention to Detail</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarHalf />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="ability-title">Marketing</span>
+                <span className="ability-score">
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarFull />
+                  </span>
+                  <span>
+                    <VscStarHalf />
+                  </span>
+                  <span>
+                    <VscStarEmpty />
+                  </span>
+                </span>
+              </li>
             </ul>
           </Col>
         </Row>
@@ -216,9 +376,7 @@ const Abilities = () => {
           <Col>
             <ul className="no-bullets">
               <li>
-                <span className="ability-title">
-                  English
-                </span>
+                <span className="ability-title">English</span>
                 <span className="ability-score">
                   <span>
                     <VscStarFull />

@@ -29,10 +29,10 @@ const Profile = () => {
             </Col>
             <Col>
               <Image src={Me} thumbnail />
-              <p className="text-profile">
+              {/* <p className="text-profile">
                 "I'd better be stupid for 5 minutes if I ask a question, than to
                 stay stupid all your life... ”
-              </p>
+              </p> */}
             </Col>
             <Col>
               <h4 className="profile-subtitle1">Details</h4>

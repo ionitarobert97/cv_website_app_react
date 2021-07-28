@@ -24,7 +24,7 @@ const Projects = () => {
                 <Card.ImgOverlay className="cardTextContainer">
                   <Card.Title>Vacation App</Card.Title>
                   <hr />
-                  <Card.Text>Project still progress...</Card.Text>
+                  <Card.Text>Project still in progress...</Card.Text>
                   <Card.Text>Not all features fully implemented</Card.Text>
                   <Card.Text>Creation date: June 2021 </Card.Text>
                 </Card.ImgOverlay>
@@ -39,10 +39,10 @@ const Projects = () => {
                   </Card.Title>
                   <hr />
                   <Card.Text className="card-text">
-                    These are containers for future projects.
+                    This is a container for future projects.
                   </Card.Text>
                   <Card.Text className="card-text">
-                    Create date: Unknown yet{" "}
+                    {/* Create date: ... */}
                   </Card.Text>
                 </Card.ImgOverlay>
               </Card>
